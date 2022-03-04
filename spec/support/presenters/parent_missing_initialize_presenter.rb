@@ -1,2 +1,0 @@
-class ParentMissingInitializePresenter
-end
