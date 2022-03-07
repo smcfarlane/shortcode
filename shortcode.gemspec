@@ -12,7 +12,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/kernow/shortcode"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   spec.require_paths = ["lib"]
 
   spec.add_dependency "parslet", "~> 1.8.0"
