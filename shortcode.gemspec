@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "parslet", "~> 1.8.0"
 
+  spec.add_development_dependency "appraisal"
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "coveralls", "~> 0.8.22"
   spec.add_development_dependency "haml", "~> 5.0"
