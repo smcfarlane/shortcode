@@ -32,7 +32,7 @@ class Shortcode::Tag
     when :erb
       ERB.new(markup).result(@binding.expose_binding)
     when :haml
-      Haml::Engine.new(markup).render(@binding)
+      Haml::Template.new { markup }.render(@binding)
     when :slim
       Slim::Template.new { markup }.render(@binding)
     else
